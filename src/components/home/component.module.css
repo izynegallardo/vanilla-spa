@@ -1,0 +1,63 @@
+.home {
+    display: flex;
+    align-items: center;
+
+    .home-div {
+        width: 100%;
+    }
+
+    .home-section {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+
+        @media (max-width: 1024px) {
+            padding: 2em 1.25em 1.5em;
+            gap: 1.125em;
+        }
+    }
+
+    .link-div {
+        display: flex;
+        place-items: center;
+    }
+
+    .link {
+        display: flex;
+        place-items: center;
+        gap: 0.5em;
+        border-radius: 6px;
+        padding: 0.333em 0.667em;
+        color: var(--text-h);
+        font-size: 1rem;
+    }
+
+    .vite,
+    .framework {
+        height: 72px;
+        transition:
+            filter 0.25s ease,
+            transform 0.25s ease;
+
+        &:hover {
+            transform: translateY(-2px);
+        }
+    }
+
+    .framework {
+        width: 72px;
+
+        &:hover {
+            filter: drop-shadow(0 8px 20px #f7df1e);
+        }
+    }
+
+    .vite {
+        width: 120px;
+
+        &:hover {
+            filter: drop-shadow(0 8px 20px #9b3fff);
+        }
+    }
+}

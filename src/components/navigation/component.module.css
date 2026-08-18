@@ -1,0 +1,25 @@
+.navigation {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 1em;
+    width: 100%;
+
+    ul {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        gap: 1em;
+    }
+
+    a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .button-icon {
+        height: 32px;
+        width: 32px;
+    }
+}
