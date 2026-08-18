@@ -1,5 +1,5 @@
 import styles from './component.module.css'
-import Navigation from '../navigation/main'
+import Navigation from '@/components/navigation/main'
 
 export default function Header(root) {
     root.innerHTML = `

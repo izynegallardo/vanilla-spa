@@ -1,7 +1,7 @@
 import styles from './component.module.css'
-import githubLogo from '../../assets/github.svg'
-import packageIcon from '../../assets/package.svg'
-import npmLogo from '../../assets/npm.svg'
+import githubLogo from '@/assets/github.svg'
+import packageIcon from '@/assets/package.svg'
+import npmLogo from '@/assets/npm.svg'
 
 export default function Footer(root) {
     root.innerHTML = `

@@ -1,6 +1,6 @@
 import styles from './component.module.css'
-import { count, setCount } from '../../store/counter'
-// import { count, setCount, subscribeCount } from '../../store/counter'
+import { count, setCount } from '@/store/counter'
+// import { count, setCount, subscribeCount } from '@/store/counter'
 
 export default function Counter(root) {
     const button = document.createElement('button')

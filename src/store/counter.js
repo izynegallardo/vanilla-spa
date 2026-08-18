@@ -1,4 +1,4 @@
-import { useState } from '../core/useState'
+import { useState } from '@/core/useState'
 
 export const [count, setCount] = useState(0)
 

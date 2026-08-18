@@ -1,7 +1,7 @@
 import styles from './component.module.css'
-import javascriptLogo from '../../assets/javascript.svg'
-import viteLogo from '../../assets/vite.svg'
-import Counter from '../counter/main'
+import javascriptLogo from '@/assets/javascript.svg'
+import viteLogo from '@/assets/vite.svg'
+import Counter from '@/components/counter/main'
 
 export default function Main(root) {
     root.innerHTML = `
